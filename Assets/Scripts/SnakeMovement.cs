@@ -37,6 +37,11 @@ public class SnakeMovement : MonoBehaviour {
 	//Add new tail to the end of the snake
 	public void AddTail() {
 		var newTailPosition = snakeTail[snakeTail.Count - 1].transform.position;
+
+		//fix: correct tail position to avoid collision with head
+		if (snakeTail.Count == 2)
+			newTailPosition.x = newTailPosition.x - 0.5f;
+
 		snakeTail.Add(Instantiate(talePrefab, newTailPosition, Quaternion.identity) as GameObject);
 		score++;
 	}

@@ -15,7 +15,7 @@ Platform assembly: C:\Unity\Snake3d\Snake3d_Data\Managed\UnityEngine.UI.dll (thi
 Loading C:\Unity\Snake3d\Snake3d_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Unity\Snake3d\Snake3d_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Unity\Snake3d\Snake3d_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.070 seconds
+- Completed reload, in  0.090 seconds
 Platform assembly: C:\Unity\Snake3d\Snake3d_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Unity\Snake3d\Snake3d_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
@@ -23,25 +23,7 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 5.208487 ms
+UnloadTime: 2.558717 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 1e98 -> priority: 1 
-  Thread -> id: 134c -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 15.606859 ms
-
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 300.
-Total: 0.599745 ms (FindLiveObjects: 0.051956 ms CreateObjectMapping: 0.060295 ms MarkObjects: 0.468250 ms  DeleteObjects: 0.014111 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.153953 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 300.
-Total: 0.465043 ms (FindLiveObjects: 0.047466 ms CreateObjectMapping: 0.054522 ms MarkObjects: 0.345094 ms  DeleteObjects: 0.014111 ms)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.403469 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 300.
-Total: 0.463760 ms (FindLiveObjects: 0.045542 ms CreateObjectMapping: 0.054522 ms MarkObjects: 0.342528 ms  DeleteObjects: 0.017318 ms)
-
+  Thread -> id: 1b40 -> priority: 1 
+  Thread -> id: dc0 -> priority: 1 
